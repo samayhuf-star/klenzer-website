@@ -448,12 +448,13 @@ cats.forEach((c,i)=>{
 
 /* business details: fill these in, empty values are hidden */
 const BUSINESS={
-  name:"Apps",
-  address:"",   /* e.g. "123 Main Street, Suite 100, City, State ZIP, USA" */
-  phone:"",     /* e.g. "+1 (555) 123-4567" */
+  name:"Krosz Inc.",
+  address:"444 Alaska Avenue, Suite #CRY683, Torrance, CA 90503, USA",
+  phone:"+1 213 396 3083",
   email:"samayhuf@gmail.com"
 };
 const bi=$("#bizinfo");
+bi.insertAdjacentHTML("beforeend",`<strong>${BUSINESS.name}</strong>`);
 if(BUSINESS.address)bi.insertAdjacentHTML("beforeend",`<span>${BUSINESS.address}</span>`);
 if(BUSINESS.phone)bi.insertAdjacentHTML("beforeend",`<a href='tel:${BUSINESS.phone.replace(/[^+\d]/g,"")}'>${BUSINESS.phone}</a>`);
 bi.insertAdjacentHTML("beforeend",`<a href='mailto:${BUSINESS.email}'>${BUSINESS.email}</a>`);
