@@ -155,6 +155,33 @@ section{padding:96px 0 24px}
 .get a{background:var(--text);color:#0a0d12;border-color:transparent}
 .get a:hover{transform:translateY(-2px)}
 
+
+/* screenshot gallery */
+.shots{position:relative;margin:-6px -6px 0;border-radius:20px;background:linear-gradient(160deg,rgba(255,255,255,.05),rgba(255,255,255,.01));border:1px solid var(--line);overflow:hidden}
+.shots-track{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding:18px 18px 8px;scroll-behavior:smooth}
+.shots-track::-webkit-scrollbar{display:none}
+.shot{flex:none;width:112px;aspect-ratio:9/19;border-radius:18px;border:3px solid #1c212c;background:#0b0e14;position:relative;overflow:hidden;scroll-snap-align:center;box-shadow:0 14px 28px -12px rgba(0,0,0,.7);transition:transform .4s}
+.shot:hover{transform:translateY(-6px) rotate(-1.5deg)}
+.shot img{width:100%;height:100%;object-fit:cover;display:block}
+.shot .scr{position:absolute;inset:0;padding:16px 8px 8px;display:flex;flex-direction:column;gap:6px;font-size:7.5px;line-height:1.2;color:#fff}
+.shot .notch{position:absolute;top:4px;left:50%;translate:-50% 0;width:28px;height:5px;border-radius:9px;background:#000;z-index:2}
+.shot .h{font-weight:700;font-size:9.5px;letter-spacing:-.01em;margin:2px 0 1px}
+.shot .big{font-family:var(--display);font-size:26px;font-weight:700;letter-spacing:-.03em;margin:4px 0}
+.shot .row{display:flex;align-items:center;gap:5px;padding:6px;border-radius:8px;background:rgba(255,255,255,.14);backdrop-filter:blur(2px)}
+.shot .row i{width:12px;height:12px;border-radius:4px;background:rgba(255,255,255,.55);flex:none}
+.shot .row span{overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.shot .bar{height:6px;border-radius:9px;background:rgba(255,255,255,.2);overflow:hidden}
+.shot .bar b{display:block;height:100%;border-radius:9px;background:#fff;animation:fill 2.4s ease-in-out infinite alternate}
+@keyframes fill{from{width:18%}to{width:var(--w,80%)}}
+.shot .cta{margin-top:auto;text-align:center;padding:7px;border-radius:9px;background:#fff;color:#0a0d12;font-weight:700;font-size:8px}
+.shot .grid2{display:grid;grid-template-columns:1fr 1fr;gap:5px}
+.shot .tile2{aspect-ratio:1;border-radius:9px;background:rgba(255,255,255,.16);display:flex;align-items:flex-end;padding:5px;font-weight:600}
+.shot .tile2:nth-child(2){background:rgba(255,255,255,.3)}
+.shot .tile2:nth-child(3){background:rgba(255,255,255,.24)}
+.shots-dots{display:flex;justify-content:center;gap:6px;padding:4px 0 12px}
+.shots-dots b{width:6px;height:6px;border-radius:9px;background:rgba(255,255,255,.25);transition:.3s;cursor:pointer}
+.shots-dots b.on{width:18px;background:var(--glow)}
+
 /* strip */
 .strip{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
 @media(max-width:900px){.strip{grid-template-columns:repeat(2,1fr)}}
@@ -403,6 +430,31 @@ $("#featTotal").dataset.count=total;
 $("#heroCount").textContent=APPS.length;
 document.querySelector('[data-count="12"]').dataset.count=APPS.length;
 
+
+/* screenshot gallery: real images via a.shots, otherwise generated screens */
+function short(t,n){const w=t.split(/\s+/);return w.slice(0,n).join(" ")+(w.length>n?"…":"")}
+function screens(a){
+  const f=a.features,g=grad(a.c);
+  const bg=`background:${g}`;
+  const s1=`<div class="scr" style="${bg}"><div class="h">${a.name}</div><div class="big">${a.letter}</div><div class="bar"><b style="--w:86%"></b></div><div class="row"><i></i><span>${short(f[0],5)}</span></div><div class="row"><i></i><span>${short(f[1]||f[0],5)}</span></div><div class="cta">Get started</div></div>`;
+  const s2=`<div class="scr" style="background:linear-gradient(180deg,#10141c,${a.c[1]}55)"><div class="h">${short(a.tag,4)}</div><div class="grid2"><div class="tile2" style="background:${a.c[0]}66">${short(f[0],2)}</div><div class="tile2">${short(f[1]||f[0],2)}</div><div class="tile2">${short(f[2]||f[0],2)}</div><div class="tile2" style="background:${a.c[1]}88">${short(f[3]||f[0],2)}</div></div><div class="bar"><b style="--w:64%"></b></div><div class="bar"><b style="--w:42%"></b></div></div>`;
+  const s3=`<div class="scr" style="background:linear-gradient(200deg,${a.c[1]},#0b0e14 70%)"><div class="h">${short(f[2]||f[0],4)}</div>${f.slice(0,4).map(x=>`<div class="row"><i></i><span>${short(x,4)}</span></div>`).join("")}<div class="cta" style="background:${a.c[0]};color:#04120f">${(a.price.replace(/<[^>]+>/g,"").match(/\$[\d.]+|Free/)||["Upgrade"])[0]}</div></div>`;
+  return [s1,s2,s3];
+}
+function gallery(a){
+  const items=(a.shots&&a.shots.length?a.shots.map(u=>`<div class="shot"><div class="notch"></div><img loading="lazy" src="${u}" alt="${a.name} screenshot"></div>`):screens(a).map(h=>`<div class="shot"><div class="notch"></div>${h}</div>`));
+  return `<div class="shots"><div class="shots-track">${items.join("")}</div><div class="shots-dots">${items.map((_,i)=>`<b class="${i?"":"on"}"></b>`).join("")}</div></div>`;
+}
+function wireGallery(el){
+  const tr=el.querySelector(".shots-track"),dots=[...el.querySelectorAll(".shots-dots b")];
+  if(!tr)return;let i=0,t;
+  const go=n=>{i=n%dots.length;const c=tr.children[i];tr.scrollTo({left:c.offsetLeft-(tr.clientWidth-c.clientWidth)/2,behavior:"smooth"});dots.forEach((d,k)=>d.classList.toggle("on",k===i))};
+  dots.forEach((d,k)=>d.addEventListener("click",()=>{go(k);restart()}));
+  tr.addEventListener("scroll",()=>{const k=Math.round(tr.scrollLeft/(tr.scrollWidth/dots.length));dots.forEach((d,j)=>d.classList.toggle("on",j===Math.min(k,dots.length-1)))},{passive:true});
+  const restart=()=>{clearInterval(t);if(!matchMedia("(prefers-reduced-motion:reduce)").matches)t=setInterval(()=>go(i+1),3200+Math.random()*900)};
+  restart();
+}
+
 /* cards */
 const grid=$("#grid");
 function badge(url,label){return url?`<a href="${url}" rel="noopener">${label}</a>`:`<span>${label}</span>`}
@@ -412,13 +464,14 @@ APPS.forEach((a,i)=>{
   const hasIos=a.plat.includes("iPhone"),hasAnd=a.plat.includes("Android");
   const live=a.ios||a.android;
   el.innerHTML=`
+    ${gallery(a)}
     <div class="top"><div class="ic" style="background:${grad(a.c)}">${a.letter}</div><div><h3>${a.name}</h3><div class="cat">${a.cat}${a.working?" · working title":""}</div></div></div>
     <div class="tag">${a.tag}</div>
     <ul class="feat">${a.features.map(f=>`<li>${f}</li>`).join("")}</ul>
     <div class="price">${a.price}</div>
     <div class="get">${hasIos?badge(a.ios,a.ios?"App Store":"App Store · soon"):""}${hasAnd?badge(a.android,a.android?"Google Play":"Google Play · soon"):""}</div>
     <div class="foot"><span class="st ${live?"live":a.status}">${live?STATUS.live:STATUS[a.status]}</span><div class="plat">${a.plat.map(p=>`<i>${p}</i>`).join("")}</div></div>`;
-  grid.appendChild(el);
+  grid.appendChild(el);wireGallery(el);
   el.addEventListener("pointermove",e=>{
     const r=el.getBoundingClientRect(),x=e.clientX-r.left,y=e.clientY-r.top;
     el.style.setProperty("--mx",x+"px");el.style.setProperty("--my",y+"px");
