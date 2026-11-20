@@ -200,5 +200,102 @@ export const GUIDES = [
   ['Why does storage not change after I delete photos?', 'They are in Recently Deleted for up to 30 days. Empty that album to get the space back.']
  ],
  related: ['iphone-storage-full-after-deleting', 'iphone-storage-full', 'iphone-storage-full-with-icloud']
+},
+{
+ slug: 'how-to-free-up-space-on-iphone',
+ type: 'hub',
+ title: 'How to Free Up Space on iPhone: 10 Fixes, Biggest First',
+ h1: 'How to free up space on iPhone',
+ desc: 'Free up space on your iPhone fast. Ten fixes ranked by how much space they usually recover, from offloading apps to clearing downloads and videos.',
+ tldr: 'Start where the space is: open Settings › General › iPhone Storage, sort by size, then deal with the biggest items first. Large videos, unused apps, Messages attachments and offline downloads usually recover the most. Small cache clean-ups come last.',
+ sections: [
+  { h: 'Check what is using space first', html: `<p>Open <b>Settings › General › iPhone Storage</b>. Wait for the bar to finish loading, then read the list from the top. iOS also shows recommendations here, such as offloading unused apps or reviewing large attachments. ${MENU}</p>` },
+  { h: 'Ten fixes, biggest usual gain first', html: `<table><thead><tr><th scope="col">Fix</th><th scope="col">Usual gain</th><th scope="col">Where</th></tr></thead><tbody>
+<tr><th scope="row">Delete or move long videos</th><td>Often several GB</td><td>Photos › Albums › Videos</td></tr>
+<tr><th scope="row">Remove offline downloads (films, podcasts, music)</th><td>Often several GB</td><td>The app's own downloads or storage screen</td></tr>
+<tr><th scope="row">Offload apps you rarely use</th><td>Varies by app; keeps your data</td><td>iPhone Storage › app › Offload App</td></tr>
+<tr><th scope="row">Review Messages attachments</th><td>Hundreds of MB to several GB</td><td>iPhone Storage › Messages › Review Large Attachments</td></tr>
+<tr><th scope="row">Turn on iCloud Photos with Optimize Storage</th><td>Can be large if your library is big</td><td>Settings › Photos</td></tr>
+<tr><th scope="row">Empty Recently Deleted</th><td>Whatever you deleted in the last 30 days</td><td>Photos › Albums › Utilities</td></tr>
+<tr><th scope="row">Clear WhatsApp and similar chat media</th><td>Often a few GB</td><td>See <a href="/guides/whatsapp-storage-iphone/">WhatsApp storage guide</a></td></tr>
+<tr><th scope="row">Delete duplicates and screenshots</th><td>Hundreds of MB</td><td>Photos › Albums › Utilities › Duplicates</td></tr>
+<tr><th scope="row">Clear Safari website data</th><td>Usually small</td><td>Settings › Apps › Safari (or Settings › Safari)</td></tr>
+<tr><th scope="row">Restart the phone</th><td>Clears some temporary files</td><td>Power off, then on</td></tr>
+</tbody></table><p>Gains depend on your own data. The order is a guide, not a promise.</p>` },
+  { h: 'Do the safe things first', html: `<ol><li>Back up what you care about before deleting anything.</li><li>Offload apps rather than deleting them, so documents and data stay.</li><li>Delete in small batches and check the storage bar after each step.</li></ol>` },
+  { h: 'When deleting does not help', html: `<p>If space does not come back after deleting, or System Data is huge, see <a href="/guides/iphone-storage-full-after-deleting/">storage still full after deleting</a> and <a href="/guides/iphone-system-data-storage/">what System Data is</a>.</p>` }
+ ],
+ faq: [
+  ['What is the fastest way to free up space on iPhone?', 'Delete or move your largest videos and remove big offline downloads. Check iPhone Storage to see which items are largest on your phone.'],
+  ['Will offloading an app delete my data?', 'No. Offloading removes the app but keeps its documents and data, so reinstalling restores them.'],
+  ['Does clearing Safari data help much?', 'Usually only a little. Look at videos, downloads, messages and big apps first.']
+ ],
+ related: ['iphone-storage-full', 'iphone-storage-full-after-deleting', 'how-to-clear-storage-on-iphone']
+},
+{
+ slug: 'how-to-clear-storage-on-iphone',
+ type: 'guide',
+ title: 'How to Clear Storage on iPhone, Category by Category',
+ h1: 'How to clear storage on iPhone',
+ desc: 'Clear iPhone storage by category: apps, photos, Messages, Safari, downloads and System Data. What each clean-up does and what you keep.',
+ tldr: 'Clear storage one category at a time: apps and their data, photos and videos, Messages attachments, browser data and downloads. Each area has its own setting. Check iPhone Storage after each step so you know what worked.',
+ sections: [
+  { h: 'Apps and app data', html: `<p>In <b>Settings › General › iPhone Storage</b> tap an app. <b>Offload App</b> removes the app but keeps data. <b>Delete App</b> removes both. Some apps also have their own clear-cache or downloads option inside the app.</p>` },
+  { h: 'Photos and videos', html: `<p>Delete what you do not need, then empty <b>Recently Deleted</b>. With iCloud Photos on, choose <b>Optimize iPhone Storage</b> so full-size originals live in iCloud. Details: <a href="/guides/iphone-storage-full-with-icloud/">iCloud and iPhone storage</a>.</p>` },
+  { h: 'Messages', html: `<p>Open iPhone Storage › <b>Messages</b>. Review photos, videos and other large attachments and delete the ones you do not need. You can also set messages to keep for 30 days or 1 year in Settings › Messages, which deletes older ones.</p>` },
+  { h: 'Safari and downloads', html: `<p>Clear website data in Safari settings. Check the Files app › Downloads for old files. Note that clearing website data can sign you out of sites.</p>` },
+  { h: 'System Data', html: `<p>You cannot clear System Data directly. It usually shrinks after you free other space, update iOS or restart. See <a href="/guides/iphone-system-data-storage/">System Data explained</a>.</p>` }
+ ],
+ faq: [
+  ['Is clearing storage the same as clearing cache?', 'Not exactly. Cache is temporary files. Clearing storage also covers apps, photos, messages and downloads, which are usually much bigger.'],
+  ['Can I clear storage without deleting my photos?', 'Yes. Offload apps, remove downloads, clear Messages attachments and use iCloud Photos with Optimize Storage.']
+ ],
+ related: ['how-to-free-up-space-on-iphone', 'iphone-system-data-storage', 'iphone-storage-full']
+},
+{
+ slug: 'how-many-photos-fit-on-64gb-128gb-256gb-iphone',
+ type: 'guide',
+ title: 'How Many Photos Fit on 64GB, 128GB and 256GB iPhone?',
+ h1: 'How many photos can an iPhone hold?',
+ desc: 'Rough photo counts for 64GB, 128GB and 256GB iPhones, with the maths shown and the reasons your real number will be lower.',
+ tldr: 'With photos averaging about 3 MB, a phone could hold roughly 20,000 photos per 64GB if it held nothing else. After iOS, apps and other data, plan on well under that. These are estimates and your photo size may differ.',
+ sections: [
+  { h: 'The maths', html: `<p>Divide storage by average photo size. These are best-case counts for photos only, using 1GB as about 1,000 MB and 3 MB per photo.</p><table><thead><tr><th scope="col">Storage</th><th scope="col">Best case at 3 MB</th><th scope="col">More realistic</th></tr></thead><tbody>
+<tr><th scope="row">64GB</th><td>About 21,000</td><td>Often 8,000 to 12,000</td></tr>
+<tr><th scope="row">128GB</th><td>About 42,000</td><td>Often 20,000 to 30,000</td></tr>
+<tr><th scope="row">256GB</th><td>About 85,000</td><td>Often 45,000 to 60,000</td></tr>
+</tbody></table><p>The realistic column assumes iOS, apps and other data use a share of the space. It is an estimate, not a measurement.</p>` },
+  { h: 'Why your number will differ', html: `<ul><li>Photo size varies with the camera, HEIC or JPEG, Live Photos and ProRAW.</li><li>Videos take far more space than photos. See <a href="/guides/is-64gb-enough-for-iphone/">is 64GB enough</a> for size ranges.</li><li>Apps, messages and System Data share the same storage.</li></ul>` },
+  { h: 'See your own average', html: `<p>Check <b>Settings › General › iPhone Storage › Photos</b> for the total used, then divide by the number of items shown in the Photos app to get your own average.</p>` }
+ ],
+ faq: [
+  ['How many photos fit on a 64GB iPhone?', 'Roughly 8,000 to 12,000 in practice if you also use the phone normally, and up to about 21,000 as a best case at 3 MB each.'],
+  ['Do Live Photos take more space?', 'Yes. A Live Photo includes a short video clip, so it takes more space than a still photo.']
+ ],
+ related: ['is-64gb-enough-for-iphone', 'how-much-storage-do-i-need-on-iphone', 'iphone-storage-full-with-icloud']
+},
+{
+ slug: 'how-much-storage-do-i-need-on-iphone',
+ type: 'guide',
+ title: 'How Much iPhone Storage Do You Need? Simple Guide',
+ h1: 'How much storage do you need on an iPhone?',
+ desc: 'Pick the right iPhone storage size by how you use your phone: photos, video, games and iCloud. A simple table and how to check your current use.',
+ tldr: 'Light users who rely on iCloud and streaming can manage with less. If you keep photos, videos and games on the phone, choose more. Check your current use in iPhone Storage and leave headroom, because storage cannot be added later.',
+ sections: [
+  { h: 'Check what you use today', html: `<p>Open <b>Settings › General › iPhone Storage</b>. If you are regularly near full on your current size, step up one size next time.</p>` },
+  { h: 'Match size to habits', html: `<table><thead><tr><th scope="col">If you</th><th scope="col">Consider</th></tr></thead><tbody>
+<tr><th scope="row">Message, browse, stream, use iCloud</th><td>The smaller sizes</td></tr>
+<tr><th scope="row">Keep many photos, some video, a few games</th><td>A middle size</td></tr>
+<tr><th scope="row">Shoot lots of 4K video or ProRAW, download media, keep big games</th><td>The larger sizes</td></tr>
+</tbody></table>` },
+  { h: 'Leave headroom', html: `<p>Apps and iOS grow over time, and a full phone struggles to update. See <a href="/guides/what-happens-when-iphone-storage-is-full/">what happens when storage is full</a>. Aim to keep some space free.</p>` },
+  { h: 'Cloud storage helps, not replaces', html: `<p>iCloud with Optimize Storage reduces what originals take on the phone, but needs a plan large enough for your library. More: <a href="/guides/iphone-storage-full-with-icloud/">iCloud and storage</a>.</p>` }
+ ],
+ faq: [
+  ['Can I upgrade iPhone storage later?', 'No. Internal storage is fixed at purchase. You can add cloud storage or external storage for some files.'],
+  ['Is 128GB enough for most people?', 'For many people who keep photos on the phone, it is a reasonable middle choice, but your own use decides.']
+ ],
+ related: ['is-64gb-enough-for-iphone', 'how-many-photos-fit-on-64gb-128gb-256gb-iphone', 'iphone-storage-full']
 }
 ]
+

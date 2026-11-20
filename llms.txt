@@ -34,6 +34,10 @@
 - [Is 64GB enough for an iPhone?](https://klenzer.online/guides/is-64gb-enough-for-iphone/): Is 64GB enough for iPhone? A plain guide to what fits in 64GB, 128GB and 256GB, with photo and video size maths and who should pick which.
 - [What happens when your iPhone storage is full?](https://klenzer.online/guides/what-happens-when-iphone-storage-is-full/): A full iPhone can stop taking photos, installing updates and saving data. See the exact problems, the warning signs, and how to free enough space.
 - [iPhone storage full and you can't delete photos](https://klenzer.online/guides/cant-delete-photos-iphone-storage-full/): Photos will not delete from your iPhone, or storage will not free up? Check synced photos, iCloud, Recently Deleted, and a stuck phone, step by step.
+- [How to free up space on iPhone](https://klenzer.online/guides/how-to-free-up-space-on-iphone/): Free up space on your iPhone fast. Ten fixes ranked by how much space they usually recover, from offloading apps to clearing downloads and videos.
+- [How to clear storage on iPhone](https://klenzer.online/guides/how-to-clear-storage-on-iphone/): Clear iPhone storage by category: apps, photos, Messages, Safari, downloads and System Data. What each clean-up does and what you keep.
+- [How many photos can an iPhone hold?](https://klenzer.online/guides/how-many-photos-fit-on-64gb-128gb-256gb-iphone/): Rough photo counts for 64GB, 128GB and 256GB iPhones, with the maths shown and the reasons your real number will be lower.
+- [How much storage do you need on an iPhone?](https://klenzer.online/guides/how-much-storage-do-i-need-on-iphone/): Pick the right iPhone storage size by how you use your phone: photos, video, games and iCloud. A simple table and how to check your current use.
 
 ## Company and policies
 
