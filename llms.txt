@@ -23,6 +23,18 @@
 - [Krosz Visa Guide](https://klenzer.online/krosz-visa-guide/): Do I need a visa? Get the answer in seconds. Status: Coming soon. Platforms: iPhone, Android. Free.
 - [Fly Connect](https://klenzer.online/fly-connect/): A network for cabin crew and ground staff. Status: In development. Platforms: iPhone. Pricing will be announced at launch.
 
+## Guides
+
+- [iPhone storage guides](https://klenzer.online/guides/)
+- [iPhone storage full: what to do](https://klenzer.online/guides/iphone-storage-full/): Your iPhone says storage is full. See what is using the space, the quickest ways to free it, and what to do when deleting does not help.
+- [iPhone System Data storage: what it is and how to reduce it](https://klenzer.online/guides/iphone-system-data-storage/): System Data is the grey part of your iPhone storage bar. Learn what it contains, why it grows, and which fixes actually reduce it.
+- [Why is my iPhone storage still full after deleting everything?](https://klenzer.online/guides/iphone-storage-full-after-deleting/): Deleted photos and apps but the storage bar did not change? Learn why, and how to get the space back, from Recently Deleted to restarting.
+- [WhatsApp is filling my iPhone storage: how to free space](https://klenzer.online/guides/whatsapp-storage-iphone/): WhatsApp photos, videos and voice notes can use many GB. Find the biggest chats, clear large files, and stop media saving automatically.
+- [Why is my iPhone storage full when I have iCloud?](https://klenzer.online/guides/iphone-storage-full-with-icloud/): iCloud storage and iPhone storage are separate. Learn why your phone can be full with plenty of iCloud space, and how to set iCloud Photos correctly.
+- [Is 64GB enough for an iPhone?](https://klenzer.online/guides/is-64gb-enough-for-iphone/): Is 64GB enough for iPhone? A plain guide to what fits in 64GB, 128GB and 256GB, with photo and video size maths and who should pick which.
+- [What happens when your iPhone storage is full?](https://klenzer.online/guides/what-happens-when-iphone-storage-is-full/): A full iPhone can stop taking photos, installing updates and saving data. See the exact problems, the warning signs, and how to free enough space.
+- [iPhone storage full and you can't delete photos](https://klenzer.online/guides/cant-delete-photos-iphone-storage-full/): Photos will not delete from your iPhone, or storage will not free up? Check synced photos, iCloud, Recently Deleted, and a stuck phone, step by step.
+
 ## Company and policies
 
 - [About](https://klenzer.online/about/): who publishes the apps
