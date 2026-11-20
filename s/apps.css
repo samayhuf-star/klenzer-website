@@ -57,3 +57,10 @@ thead th{background:var(--sage);font-size:13px;text-transform:uppercase;letter-s
 .tldr{background:var(--sage);border-radius:16px;padding:16px 20px;margin:18px 0}.tldr p{margin:0}
 .upd{font-size:14px;margin:0 0 6px}.guide .tbl{margin:14px 0}.guide .card.tool{margin:30px 0;display:block}.guide .card.tool h2{margin:0 0 6px;font-size:19px}.guide .card.tool p{margin:0;color:var(--ink);font-size:16px}
 .guide .grid{margin-top:20px}.guide details p{padding-top:0}
+.shots{margin:22px 0;padding:16px;background:#fff;border:1px solid var(--line,#e5e5ea);border-radius:18px}
+.shotrow{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,210px));gap:14px;justify-content:center}
+.sph{position:relative}.sph svg{width:100%;height:auto;display:block}
+
+.stepn{position:absolute;top:30px;left:-4px;z-index:2;width:26px;height:26px;border-radius:50%;background:#2f7d5b;color:#fff;font:700 13px/26px system-ui,sans-serif;text-align:center;box-shadow:0 2px 6px rgba(0,0,0,.2)}
+.shots figcaption{margin-top:12px;font-size:13px;color:#6b6b70;text-align:center}
+.shots .tag{display:inline-block;background:#fff4d6;color:#7a5a00;border:1px solid #f0d58a;border-radius:999px;padding:1px 9px;font-size:11px;font-weight:700;margin-right:4px}

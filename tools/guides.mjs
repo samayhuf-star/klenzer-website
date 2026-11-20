@@ -3,6 +3,7 @@ import {mkdirSync,writeFileSync} from 'node:fs'
 import {join} from 'node:path'
 import {CO,SUPPORT_EMAIL} from './apps.mjs'
 import {GUIDES,UPDATED} from './guides-data.mjs'
+import {figure,PLAN} from './shots.mjs'
 const OUT=process.argv[2]
 const SITE='https://klenzer.online'
 const esc=s=>s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;')
@@ -23,7 +24,8 @@ for(const g of GUIDES){
  const article={'@type':'Article','headline':g.h1,'description':g.desc,'url':SITE+path,'mainEntityOfPage':SITE+path,'datePublished':UPDATED,'dateModified':UPDATED,'author':{'@id':SITE+'/#org'},'publisher':{'@id':SITE+'/#org'}}
  const faq={'@type':'FAQPage','mainEntity':g.faq.map(([q,a])=>({'@type':'Question','name':q,'acceptedAnswer':{'@type':'Answer','text':strip(a)}}))}
  const data=ld({'@context':'https://schema.org','@graph':[ORG,article,crumb([['Apps','/'],['Guides','/guides/'],[g.h1,path]]),faq]})
- const body=g.sections.map(s=>`<h2>${s.h}</h2>${s.html}`).join('')
+ const plan=(PLAN[g.slug]||[]); if(!plan.length) throw new Error('no shots for '+g.slug)
+ const body=g.sections.map((s,i)=>`<h2>${s.h}</h2>${s.html}`+plan.filter(p=>p[0]===i).map(p=>figure(p[1])).join('')).join('')
  const rel=g.related.map(r=>`<li><a href="/guides/${r}/">${esc(by[r].h1)}</a></li>`).join('')
  w(`guides/${g.slug}/index.html`,head(g.title,g.desc,path,data)+nav+`<main id="main" class="wrap prose guide"><div class="crumbs" role="navigation" aria-label="Breadcrumb"><a href="/">Apps</a> › <a href="/guides/">Guides</a> › <span>${esc(g.h1)}</span></div><h1>${esc(g.h1)}</h1><p class="muted upd">Updated ${UPDATED}. By ${CO.name} Menu names can differ slightly between iOS versions.</p><div class="tldr"><p><strong>Short answer:</strong> ${g.tldr}</p></div>${body}<aside class="tool card"><div class="cb"><h2>A shortcut for photo clutter</h2><p><a href="/klenzer-app/">Klenzer</a> for iPhone scans your library for duplicates, screenshots and large videos, and you decide what to remove. Pricing and limits are on the <a href="/klenzer-app/">Klenzer page</a>.</p></div></aside><h2>Common questions</h2>${g.faq.map(([q,a])=>`<details><summary>${q}</summary><p>${a}</p></details>`).join('')}<h2>Related guides</h2><ul>${rel}</ul></main>`+foot)
 }
