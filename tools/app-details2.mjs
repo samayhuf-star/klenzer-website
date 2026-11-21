@@ -76,12 +76,18 @@ export const DET2={
  faq:[['Is the coach a real person?','No, it is an AI coach.'],['Does it work offline?','Workouts and exercise demos work offline.'],['Do I need an account?','No.'],['How many free replies?','20 each month.']],
  others:['momentum-mens-workout','pondly']},
 'clearscan':{
- intro:['ClearScan is a document scanner with no watermark, ever. Free text recognition (OCR) runs on your device, so nothing leaves your phone to read a page.','Onboarding is friendly and the animations are smooth. Core features are free with an optional subscription.'],
- sections:[['Private by design','Many scanner apps upload your pages to read them. ClearScan reads the text on your phone, which matters for IDs, bills and contracts.'],['No watermark','Your scans are clean. A watermark is never added to them.']],
- how:[['Scan a page','Point the camera at the document.'],['Read the text','Text recognition runs on your device.'],['Save or share','Your scan is clean with no watermark.']],
- plans:[['Free','Core features, including on-device OCR.','Free'],['Subscription','Optional extras.','Shown in the store']],
+ shots:[['private','Share without oversharing','Share-safe mode hides ID and card numbers, such as PAN, Aadhaar and card digits, before you share.'],['search','Search inside every scan','Type a word like "passport" and find it on any page in a second.'],['scan','Colour, grey or black & white','Pick the look of each page. No watermark, no account.'],['home','Your scans, sorted','Search names and text, star favourites, and filter by Receipt, Invoice, ID or Letter. Scan a Document or a Book.'],['view','Clean up every page','Choose Auto, Colour, Grey or B&W, rotate, add a page, then Share PDF.'],['facts','Facts found on your iPhone','Dates, ID numbers and more are read on-device. Tap to copy, or set a reminder or Calendar event for an expiry date.'],['deadlines','Deadlines in one list','Bills, expiries and renewals appear with days remaining, so nothing lapses.'],['whatyouget','What you get','Unlimited scans with no watermark, many pages in one PDF, search, deadlines and reminders, and monthly receipt totals.']],
+ intro:['Keptly (ClearScan) is a document scanner with no watermark and no account. Unlimited scans, automatic edge detection and straightening, and many pages in one PDF are free.','Text is read on your iPhone, so you can search inside every scan, pull out facts such as dates and ID numbers, and get reminders before a bill is due or a document expires.'],
+ sections:[
+  ['Private by design','Many scanner apps upload your pages to read them. Keptly reads the text on your phone, which matters for IDs, bills and contracts.'],
+  ['Share-safe mode','Hide ID and card numbers before you share a document, so you send what is needed and nothing more.'],
+  ['Deadlines and reminders','Keptly finds due dates, expiries and renewals and lists them with days remaining. Add repeating reminders, export to Calendar, or use the widget.'],
+  ['Receipts and totals','Receipt totals by month show what you spent at a glance.'],
+  ['Keptly Plus (optional)','Optional extras such as auto-sorting scans into Receipt, Invoice, ID and Letter. Everything you already use stays free.']],
+ how:[['Scan','Choose Document or Book mode and point the camera. Edges are detected and straightened automatically.'],['Clean up','Pick Auto, Colour, Grey or B&W, rotate, and add more pages to the same PDF.'],['Search and review facts','Find any word on any page, and check dates and numbers found on your phone.'],['Share','Share a PDF, using Share-safe mode when it contains IDs or card numbers.']],
+ plans:[['Free','Unlimited scans, no watermark, search, deadlines and receipt totals.','Free'],['Keptly Plus','Optional extras such as auto-sorting.','Shown in the store']],
  note:'Prices can differ by country.',
- faq:[['Does it add a watermark?','Never.'],['Does it upload my documents?','Text recognition runs on your device.'],['Is it free?','Core features are free with an optional subscription.']],
+ faq:[['Does it add a watermark?','Never.'],['Do I need an account?','No.'],['Does it upload my documents?','No. Text recognition runs on your iPhone.'],['Can it hide my ID numbers when I share?','Yes, Share-safe mode hides ID and card numbers.'],['Is it free?','Core features are free. Keptly Plus is an optional extra.']],
  others:['photo-info-scanner','scanwise']},
 'scanwise':{
  intro:['Scanwise scans and creates QR codes and barcodes. It is built to fix the weak spots of other scanner apps, with a simple, ad-light experience.'],
