@@ -1,6 +1,6 @@
 # Apps by Krosz Inc.
 
-> Directory of 18 iPhone and Android apps published by Krosz Inc., 444 Alaska Avenue, Suite #CRY683, Torrance, CA 90503, USA. Contact: samayhuf@gmail.com, +1 213 396 3083.
+> Directory of 19 iPhone and Android apps published by Krosz Inc., 444 Alaska Avenue, Suite #CRY683, Torrance, CA 90503, USA. Contact: samayhuf@gmail.com, +1 213 396 3083.
 
 ## Apps
 
@@ -13,6 +13,7 @@
 - [Klarity](https://klenzer.online/klarity/): Pause before you open the apps that eat your day. Status: Coming soon. Platforms: iPhone. Pricing will be announced at launch.
 - [Pondly](https://klenzer.online/pondly/): A water tracker with a penguin that grows as you hydrate. Status: In testing. Platforms: iPhone. Pricing will be announced at launch.
 - [Momentum – Men’s Workout](https://klenzer.online/momentum-mens-workout/): Sleek, minimalist workouts for every level. Status: In development. Platforms: iPhone. Pricing will be announced at launch.
+- [Hyrox Coach](https://klenzer.online/hyrox-coach/): Hybrid training with an AI coach, at your pace. Status: In testing. Platforms: iPhone. Free to start with 20 AI coach replies each month. Final pricing will be announced at launch.
 - [ClearScan](https://klenzer.online/clearscan/): Document scanner with no watermark, ever. Status: In development. Platforms: iPhone. Free core features with an optional subscription.
 - [Scanwise](https://klenzer.online/scanwise/): Scan and create QR codes and barcodes. Status: In development. Platforms: iPhone. Pricing will be announced at launch.
 - [Photo Clutter Sorter](https://klenzer.online/photo-clutter-sorter/): Sort screenshots into lists. Status: In development. Platforms: iPhone. Pricing will be announced at launch.
