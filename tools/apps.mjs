@@ -1,5 +1,5 @@
 export const SUPPORT_EMAIL='samayhuf@gmail.com'
-export const CO={name:'Krosz Inc.',addr:'444 Alaska Avenue, Suite #CRY683, Torrance, CA 90503, USA',phone:'+1 213 396 3083'}
+export const CO={name:'Klenzer Apps',addr:'444 Alaska Avenue, Suite #CRY683, Torrance, CA 90503, USA',phone:'+1 213 396 3083'}
 export const STATUS={review:'In App Review',soon:'iPhone & Android app',dev:'In development',test:'In testing'}
 const P='Pricing will be announced at launch.'
 export const APPS=[
