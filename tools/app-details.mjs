@@ -41,4 +41,22 @@ export const DET={
   ['Is Ank Numerology on the App Store?','It is in TestFlight testing on iPhone. This page is updated when the status changes.']],
  guides:[],
  others:['time-kundli','stargaze','hyrox-coach']
+}
+,'time-kundli':{
+ intro:['Time Kundli turns your birth details into a Vedic kundli and shows your future as colour-coded blocks, so you can see at a glance which stretches call for patience and which are good for a big move.','You can also run a match-making (Kundli Milan) report for two people. Birth details stay on your phone. The app is available in English and Hindi.'],
+ shots:[['welcome','Welcome','Start with your birth details to build your kundli.'],['birth','Birth details','Enter date, time and place of birth.'],['future','Future blocks','Time is split into Hold tight, Go slow, Steady, Move and Go big.'],['chart','Your chart','Ascendant, moon sign, nakshatra and Mangal dosha at a glance.'],['dashas','Dashas','The planetary periods that shape each stretch of life.']],
+ how:[['Enter birth details','Add date, time and place of birth for yourself or someone else.'],['Read your chart','See your ascendant, moon sign, nakshatra and Mangal dosha.'],['Check the future blocks','Each period is coloured from Hold tight to Go big.'],['Match two kundlis','Run a match-making report for two people and export it as a PDF.']],
+ learn:[['Ascendant (Lagna)','The sign rising at your time of birth.'],['Nakshatra','The lunar star your moon sits in.'],['Mangal dosha','A Mars placement that traditional match-making checks for.'],['Dasha','A planetary period used to time life events.']],
+ plans:[['Free','Build your kundli and see your chart.','Free'],['Time Kundli Pro','Full future blocks, dashas, match-making and PDF export.','$1.99/week with a 7-day free trial']],
+ note:'Astrology is for reflection and entertainment. It is not medical, legal or financial advice.',
+ faq:[['Is Time Kundli the same as Kundli Milan?','Yes. The app was renamed Time Kundli.'],['Is my birth data stored on a server?','Birth details stay on your phone.'],['Which languages does it support?','English and Hindi.'],['Can I match two kundlis?','Yes, with the match-making report, which you can export as a PDF.']],
+ others:['ank-numerology','stargaze']
+},'stargaze':{
+ intro:['Stargaze is a sky map for your iPhone. Hold it up to see the stars, planets and constellations overhead, with no ads.','Free gives you stars to magnitude 4.5 and time travel of plus or minus one hour. Pro adds about 2,850 stars, 110 Messier objects, ISS tracking, a Tonight planner and plus or minus 12 hours of time travel.'],
+ shots:[['sky','Sky map','Live view of the sky above you.'],['find','Find','Search for a star, planet or object and follow the pointing arrow.'],['plan','Plan','See what is worth looking at tonight.'],['plans','Stargaze Pro','Unlock more stars, deep-sky objects and ISS tracking.']],
+ how:[['Align the sky','Sky Align lines the map up with the real sky.'],['Find an object','Search and follow the arrow to it.'],['Use camera or night mode','Overlay the map on the camera, or switch to a red night mode.'],['Plan the night','Check the meteor shower calendar and save favourites.']],
+ plans:[['Free','Stars to magnitude 4.5, time travel plus or minus 1 hour, no ads.','Free'],['Stargaze Pro','About 2,850 stars, 110 Messier objects, ISS tracking, Tonight planner, plus or minus 12 h time travel.','7-day free trial, then see store price']],
+ note:'Sky positions depend on your device sensors and location permission.',
+ faq:[['Does Stargaze have ads?','No.'],['What is free?','Stars to magnitude 4.5 and time travel of plus or minus one hour.'],['What does Pro add?','About 2,850 stars, 110 Messier objects, ISS tracking, the Tonight planner and plus or minus 12 hours of time travel.']],
+ others:['time-kundli','ank-numerology']
 }};

@@ -1,6 +1,6 @@
 export const SUPPORT_EMAIL='samayhuf@gmail.com'
 export const CO={name:'Krosz Inc.',addr:'444 Alaska Avenue, Suite #CRY683, Torrance, CA 90503, USA',phone:'+1 213 396 3083'}
-export const STATUS={review:'In App Review',soon:'Coming soon',dev:'In development',test:'In testing'}
+export const STATUS={review:'In App Review',soon:'iPhone & Android app',dev:'In development',test:'In testing'}
 const P='Pricing will be announced at launch.'
 export const APPS=[
 {slug:'klenzer-app',name:'Klenzer',cat:'Utilities',letter:'K',c:['#35d4c0','#1b7f8f'],status:'review',plat:['iPhone','Android'],icon:'/klenzer-app/klenzer-icon.jpg',ext:true,

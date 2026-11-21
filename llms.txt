@@ -5,12 +5,12 @@
 ## Apps
 
 - [Klenzer](https://klenzer.online/klenzer-app/): Free up phone storage in a few taps. Status: In App Review. Platforms: iPhone, Android. $3.99/month or $14.99 lifetime. India: lifetime for ₹599.
-- [Lulla - Sleep Sounds](https://klenzer.online/lulla/): Calming sounds for faster, deeper sleep. Status: Coming soon. Platforms: iPhone, Android. $4.99/month, annual plan 30% off.
-- [Chezz](https://klenzer.online/chezz/): Chess against bots, with leaderboards that matter. Status: Coming soon. Platforms: iPhone, Android. Free to start with a premium unlock.
+- [Lulla - Sleep Sounds](https://klenzer.online/lulla/): Calming sounds for faster, deeper sleep. Status: iPhone & Android app. Platforms: iPhone, Android. $4.99/month, annual plan 30% off.
+- [Chezz](https://klenzer.online/chezz/): Chess against bots, with leaderboards that matter. Status: iPhone & Android app. Platforms: iPhone, Android. Free to start with a premium unlock.
 - [Twist 21](https://klenzer.online/twist-21/): Blackjack meets UNO-style action cards. Status: In development. Platforms: iPhone, Android. Free to play with an in-app premium unlock.
 - [Ludo Meets Snake](https://klenzer.online/ludo-meets-snake/): Classic Ludo, with a snake twist. Status: In development. Platforms: iPhone. Weekly plan $1.99 with a 7-day free trial, monthly $2.99, or annual $19.99.
 - [Riseful](https://klenzer.online/riseful/): An alarm clock that actually gets you out of bed. Status: In development. Platforms: iPhone, Android. $2.99/month or $19.99/year after 7 free days.
-- [Klarity](https://klenzer.online/klarity/): Pause before you open the apps that eat your day. Status: Coming soon. Platforms: iPhone. Pricing will be announced at launch.
+- [Klarity](https://klenzer.online/klarity/): Pause before you open the apps that eat your day. Status: iPhone & Android app. Platforms: iPhone. Pricing will be announced at launch.
 - [Pondly](https://klenzer.online/pondly/): A water tracker with a penguin that grows as you hydrate. Status: In testing. Platforms: iPhone. Pricing will be announced at launch.
 - [Momentum – Men’s Workout](https://klenzer.online/momentum-mens-workout/): Sleek, minimalist workouts for every level. Status: In development. Platforms: iPhone. Pricing will be announced at launch.
 - [Hyrox Coach](https://klenzer.online/hyrox-coach/): Hybrid training with an AI coach, at your pace. Status: In testing. Platforms: iPhone. Free to start with 20 AI coach replies each month. Final pricing will be announced at launch.
@@ -21,7 +21,7 @@
 - [Ank Numerology](https://klenzer.online/ank-numerology/): Numerology readings built on the Lo Shu grid. Status: In testing. Platforms: iPhone. Free reading. The Complete Report is a one-time purchase.
 - [Time Kundli](https://klenzer.online/time-kundli/): Kundli and match-making reports, month by month. Status: In development. Platforms: iPhone. Pricing will be announced at launch.
 - [Stargaze](https://klenzer.online/stargaze/): Point your phone at the night sky and learn what you see. Status: In testing. Platforms: iPhone. Pricing will be announced at launch.
-- [Krosz Visa Guide](https://klenzer.online/krosz-visa-guide/): Do I need a visa? Get the answer in seconds. Status: Coming soon. Platforms: iPhone, Android. Free.
+- [Krosz Visa Guide](https://klenzer.online/krosz-visa-guide/): Do I need a visa? Get the answer in seconds. Status: iPhone & Android app. Platforms: iPhone, Android. Free.
 - [Fly Connect](https://klenzer.online/fly-connect/): A network for cabin crew and ground staff. Status: In development. Platforms: iPhone. Pricing will be announced at launch.
 
 ## Guides
