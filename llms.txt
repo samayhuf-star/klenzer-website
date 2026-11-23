@@ -1,6 +1,6 @@
 # Apps by Klenzer Apps
 
-> Directory of 23 iPhone and Android apps published by Klenzer Apps, 444 Alaska Avenue, Suite #CRY683, Torrance, CA 90503, USA. Contact: samayhuf@gmail.com, +1 213 396 3083.
+> Directory of 26 iPhone and Android apps published by Klenzer Apps, 444 Alaska Avenue, Suite #CRY683, Torrance, CA 90503, USA. Contact: samayhuf@gmail.com, +1 213 396 3083.
 
 ## Apps
 
@@ -27,6 +27,9 @@
 - [Hisaab](https://klenzer.online/hisaab/): GST billing and accounts for Indian small businesses. Status: In App Review. Platforms: iPhone. Free for up to 50 bills a month. Monthly and yearly plans for unlimited bills and premium features.
 - [Kids’ Home Workout Buddy](https://klenzer.online/kids-home-workout-buddy/): Short, fun home workouts for children. Status: In testing. Platforms: iPhone. Pricing will be announced at launch.
 - [Passvio](https://klenzer.online/passvio/): See where your passport can take you, visa-free. Status: In development. Platforms: iPhone, Android. 7-day free trial, then $2.99/week, $5.99/month, $29.99/year or $39.99 lifetime.
+- [Travel Advisory Alerts](https://klenzer.online/travel-advisory-alerts/): Know if it is safe to travel, and get told when that changes. Status: In development. Platforms: iPhone, Android. 7-day free trial, then $2.99/week, $5.99/month, $29.99/year or $39.99 lifetime.
+- [Flag and Country Quiz](https://klenzer.online/flag-country-quiz/): A flag and country quiz with passport and visa fact rounds. Status: In development. Platforms: iPhone, Android. 7-day free trial, then $2.99/week, $5.99/month, $29.99/year or $39.99 lifetime.
+- [Digital Nomad Visa Finder](https://klenzer.online/digital-nomad-visa-finder/): Enter your income and passport, see every remote-work visa you qualify for. Status: In development. Platforms: iPhone, Android. 7-day free trial, then $2.99/week, $5.99/month, $29.99/year or $39.99 lifetime.
 
 ## Guides
 
