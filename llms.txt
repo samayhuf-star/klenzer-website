@@ -1,6 +1,6 @@
 # Apps by Klenzer Apps
 
-> Directory of 26 iPhone and Android apps published by Klenzer Apps, 444 Alaska Avenue, Suite #CRY683, Torrance, CA 90503, USA. Contact: samayhuf@gmail.com, +1 213 396 3083.
+> Directory of 28 iPhone and Android apps published by Klenzer Apps, 444 Alaska Avenue, Suite #CRY683, Torrance, CA 90503, USA. Contact: samayhuf@gmail.com, +1 213 396 3083.
 
 ## Apps
 
@@ -30,6 +30,8 @@
 - [Travel Advisory Alerts](https://klenzer.online/travel-advisory-alerts/): Know if it is safe to travel, and get told when that changes. Status: In development. Platforms: iPhone, Android. 7-day free trial, then $2.99/week, $5.99/month, $29.99/year or $39.99 lifetime.
 - [Flag and Country Quiz](https://klenzer.online/flag-country-quiz/): A flag and country quiz with passport and visa fact rounds. Status: In development. Platforms: iPhone, Android. 7-day free trial, then $2.99/week, $5.99/month, $29.99/year or $39.99 lifetime.
 - [Digital Nomad Visa Finder](https://klenzer.online/digital-nomad-visa-finder/): Enter your income and passport, see every remote-work visa you qualify for. Status: In development. Platforms: iPhone, Android. 7-day free trial, then $2.99/week, $5.99/month, $29.99/year or $39.99 lifetime.
+- [Playsz](https://klenzer.online/playsz/): A private vault for your videos, locked with Face ID. Status: In development. Platforms: iPhone. Pricing will be announced at launch.
+- [Canada PR Guide](https://klenzer.online/canada-pr-guide/): Step-by-step guides to every route to Canadian permanent residence. Status: In development. Platforms: iPhone. 7-day free trial, then $2.99/week, $5.99/month, $29.99/year or $39.99 lifetime.
 
 ## Guides
 

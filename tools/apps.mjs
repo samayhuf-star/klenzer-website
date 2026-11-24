@@ -101,4 +101,12 @@ export const APPS=[
  tag:'Enter your income and passport, see every remote-work visa you qualify for.',
  features:['See the digital nomad and remote-work visas you qualify for','Income needed, fee, duration, renewal, tax and processing days for each','Saved shortlists','Change alerts when a visa rule moves'],
  price:'7-day free trial, then $2.99/week, $5.99/month, $29.99/year or $39.99 lifetime.'},
+{slug:'playsz',name:'Playsz',cat:'Utilities',letter:'Pz',c:['#a78bfa','#3b2a8f'],status:'dev',plat:['iPhone'],
+ tag:'A private vault for your videos, locked with Face ID.',
+ features:['Keep private videos in a vault that opens with Face ID','Record straight into the vault with the private camera','A log of failed unlock attempts','Play your videos offline'],
+ price:'Pricing will be announced at launch.'},
+{slug:'canada-pr-guide',name:'Canada PR Guide',cat:'Explore & Travel',letter:'CA',c:['#ff6b6b','#9b1c31'],status:'dev',plat:['iPhone'],
+ tag:'Step-by-step guides to every route to Canadian permanent residence.',
+ features:['Pathway finder that shows which PR routes fit you','CRS score calculator','Express Entry draw tracker alerts','Detailed guides and a roadmap for every PR category, with requirements','Short mini trainings'],
+ price:'7-day free trial, then $2.99/week, $5.99/month, $29.99/year or $39.99 lifetime.'},
 ]

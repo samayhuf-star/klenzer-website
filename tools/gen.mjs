@@ -64,7 +64,7 @@ for(const a of ALL){ if(a.ext) continue
  const d=DET[a.slug]
  const pol=k=>has(a,k)?`/${a.slug}/${k}/`:`/legal/${k}/`
  const faq=[...(d?d.faq:[]),[`Where can I get ${a.name}?`,a.store&&(a.store.ios||a.store.android)?`${a.name} is live on ${[a.store.ios?`the <a href="${a.store.ios}">App Store</a>`:'',a.store.android?`<a href="${a.store.android}">Google Play</a>`:''].filter(Boolean).join(' and ')}.`:`${a.name} is built for ${a.plat.join(' and ')}. Store links appear at the top of this page as soon as they are added.`],[`How much does ${a.name} cost?`,a.price],[`Where do I get help with ${a.name}?`,`Email <a href="mailto:${SUPPORT_EMAIL}?subject=${encodeURIComponent(a.name)}%20support">${SUPPORT_EMAIL}</a> or visit the <a href="${pol('support')}">support page</a>.`],[`What data does ${a.name} collect?`,`Read the <a href="${pol('privacy')}">privacy policy</a> and <a href="${pol('terms')}">terms of use</a>.`],[`Who publishes ${a.name}?`,`${CO.name}, ${CO.addr}. See the <a href="/about/">About page</a>.`]]
- const NEUTRAL=['passvio','travel-advisory-alerts','flag-country-quiz','digital-nomad-visa-finder']
+ const NEUTRAL=['canada-pr-guide','passvio','travel-advisory-alerts','flag-country-quiz','digital-nomad-visa-finder']
  const apart=x=>(NEUTRAL.includes(a.slug)&&x.slug==='krosz-visa-guide')||(a.slug==='krosz-visa-guide'&&NEUTRAL.includes(x.slug))
  const more=(d&&d.others?d.others.map(k=>APPS.find(x=>x.slug===k)).filter(Boolean):APPS.filter(x=>x!==a&&x.cat===a.cat)).filter(x=>!apart(x)).slice(0,3)
  const ldj=ld({'@context':'https://schema.org','@graph':[ORG,swApp(a),crumb([['Apps','/'],[a.name,`/${a.slug}/`]]),faqLd(faq)]})
