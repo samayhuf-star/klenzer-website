@@ -1,15 +1,15 @@
-# Apps by Klenzer Apps
+# Apps by Sunny Vashisht
 
-> Directory of 28 iPhone and Android apps published by Klenzer Apps, 444 Alaska Avenue, Suite #CRY683, Torrance, CA 90503, USA. Contact: samayhuf@gmail.com, +1 213 396 3083.
+> Directory of 28 iPhone and Android apps published by Sunny Vashisht. Contact: samayhuf@gmail.com.
 
 ## Apps
 
-- [Klenzer](https://klenzer.online/klenzer-app/): Free up phone storage in a few taps. Platforms: iPhone, Android. $3.99/month or $14.99 lifetime. India: lifetime for ₹599.
+- [Klenzer](https://klenzer.online/klenzer-app/): Free up phone storage in a few taps. Platforms: iPhone, Android. Free to scan and review, with 10 free actions a day. Pro: $5.99/month or $29.99/year with a 7-day free trial, or $29.99 lifetime. Prices can differ by country and are shown in the App Store before you buy.
 - [Lulla - Sleep Sounds](https://klenzer.online/lulla/): Calming sounds for faster, deeper sleep. Platforms: iPhone, Android. $4.99/month, annual plan 30% off.
-- [Chesz: City Chess League](https://klenzer.online/chezz/): Chess against bots and real players, with city leaderboards. Platforms: iPhone, Android. Free to start with a premium unlock.
+- [Chezz: City Chess League](https://klenzer.online/chezz/): Chess against bots and real players, with city leaderboards. Platforms: iPhone, Android. Free to start with a premium unlock.
 - [Twist 21](https://klenzer.online/twist-21/): Blackjack meets UNO-style action cards. Platforms: iPhone, Android. Free to play. Optional chip packs from $1.99 to $49.99. Chips have no cash value.
 - [Ludo Meets Snake](https://klenzer.online/ludo-meets-snake/): Classic Ludo with dice you can verify. Platforms: iPhone. Weekly plan $1.99 with a 7-day free trial, monthly $2.99, or annual $19.99.
-- [Alarm Klock](https://klenzer.online/riseful/): An alarm clock that actually gets you out of bed. Platforms: iPhone, Android. $2.99/month or $19.99/year.
+- [Alarm Klock](https://klenzer.online/alarm-klock/): An alarm clock that actually gets you out of bed. Platforms: iPhone, Android. 7-day free trial, then $2.99/month or $19.99/year. Cancel in Settings › your name › Subscriptions. Prices can differ by country and are shown in the App Store before you buy.
 - [Klarity](https://klenzer.online/klarity/): Pause before you open the apps that eat your day. Platforms: iPhone. Pricing will be announced at launch.
 - [Pondly](https://klenzer.online/pondly/): A water tracker with a penguin that grows as you hydrate. Platforms: iPhone. Pricing will be announced at launch.
 - [Momentum – Men’s Workout](https://klenzer.online/momentum-mens-workout/): Sleek, minimalist workouts for every level. Platforms: iPhone. Pricing will be announced at launch.
@@ -17,12 +17,12 @@
 - [ClearScan](https://klenzer.online/clearscan/): Document scanner with no watermark, ever. Platforms: iPhone. Free core features with an optional subscription.
 - [Photo Clutter Sorter](https://klenzer.online/photo-clutter-sorter/): Sort screenshots into lists. Platforms: iPhone. Pricing will be announced at launch.
 - [Photo Info Scanner](https://klenzer.online/photo-info-scanner/): Pull links, text and places out of your photos. Platforms: iPhone, Android. Free trial, then the same plans as our other apps.
-- [Ank Numerology](https://klenzer.online/ank-numerology/): Numerology readings built on the Lo Shu grid. Platforms: iPhone. Free reading. The Complete Report is a one-time purchase.
+- [Ank Numerology](https://klenzer.online/ank-numerology/): Numerology readings built on the Lo Shu grid. Platforms: iPhone. Free short reading to start. Ank Pro: $1.99/week, $3.99/month or $19.99/year, as shown on the App Store. Prices can differ by country.
 - [Time Kundli](https://klenzer.online/time-kundli/): Kundli and match-making reports, month by month. Platforms: iPhone. Pricing will be announced at launch.
-- [Stargaze](https://klenzer.online/stargaze/): Point your phone at the night sky and learn what you see. Platforms: iPhone. Pricing will be announced at launch.
+- [Stargaze](https://klenzer.online/stargaze/): Point your phone at the night sky and learn what you see. Platforms: iPhone. Free to try. Stargaze Pro: $1.99/week with a 7-day free trial. Prices can differ by country and are shown in the App Store before you buy.
 - [Krosz Visa Guide](https://klenzer.online/krosz-visa-guide/): Do I need a visa? Get the answer in seconds. Platforms: iPhone, Android. Free.
 - [Fly Connect](https://klenzer.online/fly-connect/): A network for cabin crew and ground staff. Platforms: iPhone. Pricing will be announced at launch.
-- [Divi Mood](https://klenzer.online/divi-mood/): A mood and cycle tracker with a penguin called Divi. Platforms: iPhone. Subscription. Plans and prices are shown in the App Store before you buy.
+- [Divi Mood](https://klenzer.online/divi-mood/): A mood and cycle tracker with a penguin called Divi. Platforms: iPhone. Free to start. Paid Divi Plus plans, if offered, are shown in the App Store before you buy. Restore purchases in the app. Cancel subscriptions in Settings › your name › Subscriptions.
 - [2 Patti](https://klenzer.online/2-patti/): A two-card take on Teen Patti that plays offline. Platforms: iPhone. Free.
 - [Hisaab](https://klenzer.online/hisaab/): GST billing and accounts for Indian small businesses. Platforms: iPhone. Free for up to 50 bills a month. Monthly and yearly plans for unlimited bills and premium features.
 - [Kids’ Home Workout Buddy](https://klenzer.online/kids-home-workout-buddy/): Short, fun home workouts for children. Platforms: iPhone. Pricing will be announced at launch.
