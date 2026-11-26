@@ -4,34 +4,34 @@
 
 ## Apps
 
-- [Klenzer](https://klenzer.online/klenzer-app/): Free up phone storage in a few taps. Status: Live on the App Store. Platforms: iPhone, Android. $3.99/month or $14.99 lifetime. India: lifetime for ₹599.
-- [Lulla - Sleep Sounds](https://klenzer.online/lulla/): Calming sounds for faster, deeper sleep. Status: In App Review. Platforms: iPhone, Android. $4.99/month, annual plan 30% off.
-- [Chesz: City Chess League](https://klenzer.online/chezz/): Chess against bots and real players, with city leaderboards. Status: In testing. Platforms: iPhone, Android. Free to start with a premium unlock.
-- [Twist 21](https://klenzer.online/twist-21/): Blackjack meets UNO-style action cards. Status: In testing. Platforms: iPhone, Android. Free to play. Optional chip packs from $1.99 to $49.99. Chips have no cash value.
-- [Ludo Meets Snake](https://klenzer.online/ludo-meets-snake/): Classic Ludo with dice you can verify. Status: In development. Platforms: iPhone. Weekly plan $1.99 with a 7-day free trial, monthly $2.99, or annual $19.99.
-- [Alarm Klock](https://klenzer.online/riseful/): An alarm clock that actually gets you out of bed. Status: Live on the App Store. Platforms: iPhone, Android. $2.99/month or $19.99/year.
-- [Klarity](https://klenzer.online/klarity/): Pause before you open the apps that eat your day. Status: In App Review. Platforms: iPhone. Pricing will be announced at launch.
-- [Pondly](https://klenzer.online/pondly/): A water tracker with a penguin that grows as you hydrate. Status: In testing. Platforms: iPhone. Pricing will be announced at launch.
-- [Momentum – Men’s Workout](https://klenzer.online/momentum-mens-workout/): Sleek, minimalist workouts for every level. Status: In testing. Platforms: iPhone. Pricing will be announced at launch.
-- [Hybrid Trainer](https://klenzer.online/hyrox-coach/): Hybrid training with an AI coach, at your pace. Status: In testing. Platforms: iPhone. Free to start with 20 AI coach replies each month. Final pricing will be announced at launch.
-- [ClearScan](https://klenzer.online/clearscan/): Document scanner with no watermark, ever. Status: In testing. Platforms: iPhone. Free core features with an optional subscription.
-- [Photo Clutter Sorter](https://klenzer.online/photo-clutter-sorter/): Sort screenshots into lists. Status: In testing. Platforms: iPhone. Pricing will be announced at launch.
-- [Photo Info Scanner](https://klenzer.online/photo-info-scanner/): Pull links, text and places out of your photos. Status: In development. Platforms: iPhone, Android. Free trial, then the same plans as our other apps.
-- [Ank Numerology](https://klenzer.online/ank-numerology/): Numerology readings built on the Lo Shu grid. Status: Live on the App Store. Platforms: iPhone. Free reading. The Complete Report is a one-time purchase.
-- [Time Kundli](https://klenzer.online/time-kundli/): Kundli and match-making reports, month by month. Status: In testing. Platforms: iPhone. Pricing will be announced at launch.
-- [Stargaze](https://klenzer.online/stargaze/): Point your phone at the night sky and learn what you see. Status: Live on the App Store. Platforms: iPhone. Pricing will be announced at launch.
-- [Krosz Visa Guide](https://klenzer.online/krosz-visa-guide/): Do I need a visa? Get the answer in seconds. Status: In development. Platforms: iPhone, Android. Free.
-- [Fly Connect](https://klenzer.online/fly-connect/): A network for cabin crew and ground staff. Status: In development. Platforms: iPhone. Pricing will be announced at launch.
-- [Divi Mood](https://klenzer.online/divi-mood/): A mood and cycle tracker with a penguin called Divi. Status: Live on the App Store. Platforms: iPhone. Subscription. Plans and prices are shown in the App Store before you buy.
-- [2 Patti](https://klenzer.online/2-patti/): A two-card take on Teen Patti that plays offline. Status: In testing. Platforms: iPhone. Free.
-- [Hisaab](https://klenzer.online/hisaab/): GST billing and accounts for Indian small businesses. Status: In App Review. Platforms: iPhone. Free for up to 50 bills a month. Monthly and yearly plans for unlimited bills and premium features.
-- [Kids’ Home Workout Buddy](https://klenzer.online/kids-home-workout-buddy/): Short, fun home workouts for children. Status: In testing. Platforms: iPhone. Pricing will be announced at launch.
-- [Passvio](https://klenzer.online/passvio/): See where your passport can take you, visa-free. Status: In development. Platforms: iPhone, Android. 7-day free trial, then $2.99/week, $5.99/month, $29.99/year or $39.99 lifetime.
-- [Travel Advisory Alerts](https://klenzer.online/travel-advisory-alerts/): Know if it is safe to travel, and get told when that changes. Status: In development. Platforms: iPhone, Android. 7-day free trial, then $2.99/week, $5.99/month, $29.99/year or $39.99 lifetime.
-- [Flag and Country Quiz](https://klenzer.online/flag-country-quiz/): A flag and country quiz with passport and visa fact rounds. Status: In development. Platforms: iPhone, Android. 7-day free trial, then $2.99/week, $5.99/month, $29.99/year or $39.99 lifetime.
-- [Digital Nomad Visa Finder](https://klenzer.online/digital-nomad-visa-finder/): Enter your income and passport, see every remote-work visa you qualify for. Status: In development. Platforms: iPhone, Android. 7-day free trial, then $2.99/week, $5.99/month, $29.99/year or $39.99 lifetime.
-- [Playsz](https://klenzer.online/playsz/): A private vault for your videos, locked with Face ID. Status: In development. Platforms: iPhone. Pricing will be announced at launch.
-- [Canada PR Guide](https://klenzer.online/canada-pr-guide/): Step-by-step guides to every route to Canadian permanent residence. Status: In development. Platforms: iPhone. 7-day free trial, then $2.99/week, $5.99/month, $29.99/year or $39.99 lifetime.
+- [Klenzer](https://klenzer.online/klenzer-app/): Free up phone storage in a few taps. Platforms: iPhone, Android. $3.99/month or $14.99 lifetime. India: lifetime for ₹599.
+- [Lulla - Sleep Sounds](https://klenzer.online/lulla/): Calming sounds for faster, deeper sleep. Platforms: iPhone, Android. $4.99/month, annual plan 30% off.
+- [Chesz: City Chess League](https://klenzer.online/chezz/): Chess against bots and real players, with city leaderboards. Platforms: iPhone, Android. Free to start with a premium unlock.
+- [Twist 21](https://klenzer.online/twist-21/): Blackjack meets UNO-style action cards. Platforms: iPhone, Android. Free to play. Optional chip packs from $1.99 to $49.99. Chips have no cash value.
+- [Ludo Meets Snake](https://klenzer.online/ludo-meets-snake/): Classic Ludo with dice you can verify. Platforms: iPhone. Weekly plan $1.99 with a 7-day free trial, monthly $2.99, or annual $19.99.
+- [Alarm Klock](https://klenzer.online/riseful/): An alarm clock that actually gets you out of bed. Platforms: iPhone, Android. $2.99/month or $19.99/year.
+- [Klarity](https://klenzer.online/klarity/): Pause before you open the apps that eat your day. Platforms: iPhone. Pricing will be announced at launch.
+- [Pondly](https://klenzer.online/pondly/): A water tracker with a penguin that grows as you hydrate. Platforms: iPhone. Pricing will be announced at launch.
+- [Momentum – Men’s Workout](https://klenzer.online/momentum-mens-workout/): Sleek, minimalist workouts for every level. Platforms: iPhone. Pricing will be announced at launch.
+- [Hybrid Trainer](https://klenzer.online/hyrox-coach/): Hybrid training with an AI coach, at your pace. Platforms: iPhone. Free to start with 20 AI coach replies each month. Final pricing will be announced at launch.
+- [ClearScan](https://klenzer.online/clearscan/): Document scanner with no watermark, ever. Platforms: iPhone. Free core features with an optional subscription.
+- [Photo Clutter Sorter](https://klenzer.online/photo-clutter-sorter/): Sort screenshots into lists. Platforms: iPhone. Pricing will be announced at launch.
+- [Photo Info Scanner](https://klenzer.online/photo-info-scanner/): Pull links, text and places out of your photos. Platforms: iPhone, Android. Free trial, then the same plans as our other apps.
+- [Ank Numerology](https://klenzer.online/ank-numerology/): Numerology readings built on the Lo Shu grid. Platforms: iPhone. Free reading. The Complete Report is a one-time purchase.
+- [Time Kundli](https://klenzer.online/time-kundli/): Kundli and match-making reports, month by month. Platforms: iPhone. Pricing will be announced at launch.
+- [Stargaze](https://klenzer.online/stargaze/): Point your phone at the night sky and learn what you see. Platforms: iPhone. Pricing will be announced at launch.
+- [Krosz Visa Guide](https://klenzer.online/krosz-visa-guide/): Do I need a visa? Get the answer in seconds. Platforms: iPhone, Android. Free.
+- [Fly Connect](https://klenzer.online/fly-connect/): A network for cabin crew and ground staff. Platforms: iPhone. Pricing will be announced at launch.
+- [Divi Mood](https://klenzer.online/divi-mood/): A mood and cycle tracker with a penguin called Divi. Platforms: iPhone. Subscription. Plans and prices are shown in the App Store before you buy.
+- [2 Patti](https://klenzer.online/2-patti/): A two-card take on Teen Patti that plays offline. Platforms: iPhone. Free.
+- [Hisaab](https://klenzer.online/hisaab/): GST billing and accounts for Indian small businesses. Platforms: iPhone. Free for up to 50 bills a month. Monthly and yearly plans for unlimited bills and premium features.
+- [Kids’ Home Workout Buddy](https://klenzer.online/kids-home-workout-buddy/): Short, fun home workouts for children. Platforms: iPhone. Pricing will be announced at launch.
+- [Passvio](https://klenzer.online/passvio/): See where your passport can take you, visa-free. Platforms: iPhone, Android. 7-day free trial, then $2.99/week, $5.99/month, $29.99/year or $39.99 lifetime.
+- [Travel Advisory Alerts](https://klenzer.online/travel-advisory-alerts/): Know if it is safe to travel, and get told when that changes. Platforms: iPhone, Android. 7-day free trial, then $2.99/week, $5.99/month, $29.99/year or $39.99 lifetime.
+- [Flag and Country Quiz](https://klenzer.online/flag-country-quiz/): A flag and country quiz with passport and visa fact rounds. Platforms: iPhone, Android. 7-day free trial, then $2.99/week, $5.99/month, $29.99/year or $39.99 lifetime.
+- [Digital Nomad Visa Finder](https://klenzer.online/digital-nomad-visa-finder/): Enter your income and passport, see every remote-work visa you qualify for. Platforms: iPhone, Android. 7-day free trial, then $2.99/week, $5.99/month, $29.99/year or $39.99 lifetime.
+- [Playsz](https://klenzer.online/playsz/): A private vault for your videos, locked with Face ID. Platforms: iPhone. Pricing will be announced at launch.
+- [Canada PR Guide](https://klenzer.online/canada-pr-guide/): Step-by-step guides to every route to Canadian permanent residence. Platforms: iPhone. 7-day free trial, then $2.99/week, $5.99/month, $29.99/year or $39.99 lifetime.
 
 ## Guides
 

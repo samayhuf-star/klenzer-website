@@ -38,7 +38,7 @@ export const DET={
   ['Does Ank Pro include the Complete Report?','No. They are separate. The report is a one-time purchase and Pro is for unlimited checks, names and the full forecast.'],
   ['Can I check someone else, like a family member?','Yes. Create a profile for each person and read their numbers separately.'],
   ['Does it predict my future?','No. The numbers are prompts for reflection and entertainment, not predictions or advice.'],
-  ['Is Ank Numerology on the App Store?','It is in TestFlight testing on iPhone. This page is updated when the status changes.']],
+  ['Which devices does Ank Numerology run on?','Ank Numerology is built for iPhone.']],
  guides:[],
  others:['time-kundli','stargaze','hyrox-coach']
 }
